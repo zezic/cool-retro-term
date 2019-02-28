@@ -33,6 +33,15 @@ QtObject{
 
     property ListModel fontlist: ListModel{
         ListElement{
+            name: "FIXEDSYS"
+            text: "Fixedsys Excelsior"
+            source: "fonts/modern-fixedsys-excelsior/FSEX301-L2.ttf"
+            lineSpacing: -1
+            pixelSize: 16
+            baseScaling: 3.5
+            fontWidth: 1.0
+        }
+        ListElement{
             name: "COMMODORE_PET"
             text: "Commodore PET (1977)"
             source: "fonts/1977-commodore-pet/PetMe.ttf"
@@ -74,6 +83,15 @@ QtObject{
             source: "fonts/modern-pro-font-win-tweaked/ProFontWindows.ttf"
             lineSpacing: 1
             pixelSize: 12
+            baseScaling: 3.0
+            fontWidth: 1.0
+        }
+        ListElement{
+            name: "IOSEVKA_SCALED"
+            text: "Iosevka (Modern)"
+            source: "fonts/modern-iosevka/iosevka-regular.ttf"
+            lineSpacing: 1
+            pixelSize: 14
             baseScaling: 3.0
             fontWidth: 1.0
         }

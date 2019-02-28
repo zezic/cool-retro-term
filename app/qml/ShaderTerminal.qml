@@ -434,8 +434,8 @@ Item {
                      vec2 rasterizationCoords = fract(coords * virtual_resolution);
                      val += smoothstep(0.0, 0.5, rasterizationCoords.y);
                      val -= smoothstep(0.5, 1.0, rasterizationCoords.y);
-                     result *= mix(0.5, 1.0, val);" : "") +
-
+                     result *= mix(0.2, 1.0, val);" : "") +
+                     // result *= mix(0.5, 1.0, val);" : "") +
                 (appSettings.rasterization == appSettings.pixel_rasterization ?
                     "val = 0.0;
                      val += smoothstep(0.0, 0.5, rasterizationCoords.x);

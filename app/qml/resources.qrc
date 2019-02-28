@@ -45,5 +45,6 @@
         <file>NewTerminalFrame.qml</file>
         <file>SlowBurnIn.qml</file>
         <file>fonts/vt-220-mod/VT220-mod.ttf</file>
+        <file>fonts/modern-iosevka/iosevka-regular.ttf</file>
     </qresource>
 </RCC>
