@@ -229,12 +229,24 @@ QtObject{
             isSystemFont: false
             family: ""
         }
+        ListElement{
+            name: "VT220"
+            text: "HD: VT 220"
+            source: "fonts/vt-220-mod/VT220-mod.ttf"
+            lineSpacing: 0.2
+            pixelSize: 32
+            fontWidth: 1.0
+            lowResolutionFont: false
+            isSystemFont: false
+            family: ""
+        }
     }
 
     Component.onCompleted: addSystemFonts()
 
     function addSystemFonts() {
-        var families = monospaceSystemFonts;
+        // var families = monospaceSystemFonts;
+        var families = allSystemFonts;
         for (var i = 0; i < families.length; i++) {
             if (verbose) {
                 console.log("Adding system font: ", families[i])

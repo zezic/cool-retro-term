@@ -44,5 +44,6 @@
         <file>fonts/modern-terminus/TerminusTTF-4.46.0.ttf</file>
         <file>NewTerminalFrame.qml</file>
         <file>SlowBurnIn.qml</file>
+        <file>fonts/vt-220-mod/VT220-mod.ttf</file>
     </qresource>
 </RCC>

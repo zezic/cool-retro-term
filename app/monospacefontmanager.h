@@ -10,6 +10,7 @@ class MonospaceFontManager : public QObject
 public:
     explicit MonospaceFontManager(QObject *parent = nullptr);
     Q_INVOKABLE QStringList retrieveMonospaceFonts();
+    Q_INVOKABLE QStringList retrieveAllFonts();
 };
 
 #endif // MONOSPACEFONTMANAGER_H
